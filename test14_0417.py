@@ -1,6 +1,6 @@
 while True:
     UID = input('請輸入身份證字號')
-    if UID[0].isupper() and len(UID) == 10:
+    if UID[0].isupper() and len(UID) == 10 and (UID[1] == '1' or UID[1] == '2'):
         break
     else:
         print("格式錯誤，再試一次")
