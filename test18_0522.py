@@ -10,8 +10,6 @@ file.write("========================================\n")
 
 
 def collatz(n):
-    # print(n)
-
     global count
     global max_num
     count = count + 1
@@ -32,9 +30,4 @@ for test_num in range(1, 101):
     max_num = 0
     collatz(test_num)
 
-# file.close()
-
-# test_num = int(input('請輸入一個數字'))
-# collatz(test_num)
-# print('共有幾個數字:' + str(count))
-# print('最大數字:' + str(max_num))
+file.close()
