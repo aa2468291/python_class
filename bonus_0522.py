@@ -28,7 +28,7 @@ file_w.write("    測試數字       總共         最大\n")
 file_w.write("========================================\n")
 
 if check:
-    for line in lines[2:len(lines) - 1]:
+    for line in lines[2:len(lines)]:
         file_w.write(line)
 
 
