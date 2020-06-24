@@ -12,5 +12,4 @@ XYZ10508 '''
 
 text = re.findall(r"ADT[0-9]{5}", student)
 
-
 print(text)

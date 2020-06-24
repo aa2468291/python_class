@@ -11,6 +11,7 @@ A12398734567938
  '''
 
 
-text = re.findall(r"[a-zA-Z][1-2]{1}[0-9]{8}\D", UID)
+text = re.findall(r"([a-zA-Z][12]\d{8})\D", UID)
+
 
 print(text)
